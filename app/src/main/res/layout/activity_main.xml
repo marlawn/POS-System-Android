@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="237dp"
+        android:layout_height="80dp"
+        android:text="@string/title"
+        android:textSize="64sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/donutButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <ImageButton
+        android:id="@+id/donutButton"
+        android:layout_width="110sp"
+        android:layout_height="110sp"
+        android:background="@drawable/mybutton"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/coffeeButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@drawable/donut" />
+
+    <ImageButton
+        android:id="@+id/coffeeButton"
+        android:layout_width="110sp"
+        android:layout_height="110sp"
+        android:background="@drawable/mybutton"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/basketButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/donutButton"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@drawable/coffee" />
+
+    <ImageButton
+        android:id="@+id/basketButton"
+        android:layout_width="110sp"
+        android:layout_height="110sp"
+        android:background="@drawable/mybutton"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/orderButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/coffeeButton"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@drawable/cart" />
+
+    <ImageButton
+        android:id="@+id/orderButton"
+        android:layout_width="110sp"
+        android:layout_height="110sp"
+        android:background="@drawable/mybutton"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/basketButton"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@drawable/eye" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

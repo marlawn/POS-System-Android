@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Software Methodology</string>
+
+    <string name="error_message">Something went wrong! Try again.</string>
+
+    <string name="quantity">Quantity:</string>
+
+    <string name="enter_quantity">Enter Quantity</string>
+
+    <string name="add_button">Add to Order</string>
+
+    <string name="subtotal">Subtotal: </string>
+
+    <string name="french_vanilla">French Vanilla</string>
+
+    <string name="irish_cream">Irish Cream</string>
+
+    <string name="caramel">Caramel</string>
+
+    <string name="mocha">Mocha</string>
+
+    <string name="shortSize">Short</string>
+
+    <string name="tallSize">Tall</string>
+
+    <string name="grandeSize">Grande</string>
+
+    <string name="ventiSize">Venti</string>
+
+    <string name="tax"> + Tax: </string>
+
+    <string name="equals"> = </string>
+
+    <string name="zero">0.00</string>
+
+    <string name="place_order">Place Order</string>
+
+    <string name="remove">Remove by holding any item</string>
+
+    <string name="cancel_order">Cancel Order</string>
+
+    <string name="home">Home</string>
+
+    <string name="title">RU Cafe</string>
+
+    <string-array name="quantity">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+        <item>Four</item>
+        <item>Five</item>
+    </string-array>
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CoffeeView">
+
+    <CheckBox
+        android:id="@+id/frenchBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/french_vanilla"
+        app:layout_constraintBottom_toTopOf="@+id/irishBox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/mochaBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="168dp"
+        android:layout_marginEnd="167dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/mocha"
+        app:layout_constraintBottom_toTopOf="@+id/shortBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/caramelBox" />
+
+    <CheckBox
+        android:id="@+id/caramelBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="163dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/caramel"
+        app:layout_constraintBottom_toTopOf="@+id/mochaBox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/irishBox" />
+
+    <CheckBox
+        android:id="@+id/irishBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/irish_cream"
+        app:layout_constraintBottom_toTopOf="@+id/caramelBox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frenchBox" />
+
+    <Button
+        android:id="@+id/shortBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/shortSize"
+        app:layout_constraintBottom_toTopOf="@+id/tallBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mochaBox" />
+
+    <Button
+        android:id="@+id/tallBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_marginStart="162dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/tallSize"
+        app:layout_constraintBottom_toTopOf="@+id/grandeBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shortBtn" />
+
+    <Button
+        android:id="@+id/grandeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_marginStart="159dp"
+        android:layout_marginEnd="158dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/grandeSize"
+        app:layout_constraintBottom_toTopOf="@+id/ventiBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tallBtn" />
+
+    <Button
+        android:id="@+id/ventiBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_marginStart="162dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="92dp"
+        android:text="@string/ventiSize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/grandeBtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
