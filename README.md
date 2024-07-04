@@ -1,5 +1,12 @@
 # POS-Android-App
 POS system made in GUI-Programming-with-Navigation but with Android Studio.
+
+
+
+https://github.com/marlawn/POS-System-Android/assets/93688231/e5bceb4f-f58d-4862-86ac-e589852da3c3
+
+
+
 ### Navigation Design (Different Views)
 * Main view with 4 navigation options:
   * Ordering donuts view (3 general types of donuts at different price points)
